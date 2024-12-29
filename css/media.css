@@ -1,0 +1,46 @@
+@media only screen and (min-width: 200px) and (max-width: 530px) {
+    /* Styles for screens between 200px and 530px */
+    .side-bar-fixed-child{
+        position:sticky;
+    }
+    .side-bar-fixed-child-right{
+        position: sticky;
+        
+    }
+    .flex-boxs{
+        /* display: flex ;
+        justify-content: space-around;
+        
+        gap: 20px; */
+        display: grid;
+        grid-template-columns: 300px ;
+        gap: 20px;
+    }
+    .center-content{
+        margin-top: 0;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 10px;
+        height: 100px;
+        width: 100%;
+        background-color: rgb(155, 146, 137);
+    }
+    
+.image-christmas>.img-fluid>img{
+    width: 300px;
+    height: 50vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content-heading>h1{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.education{
+    position: sticky;
+    
+
+}
+  }
